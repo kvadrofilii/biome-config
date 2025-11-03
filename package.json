@@ -1,0 +1,33 @@
+{
+    "name": "@michael-yakovlev/biome-config",
+    "version": "0.1.0",
+    "type": "module",
+    "license": "MIT",
+    "author": "Michael Yakovlev",
+    "description": "My personal Biome config",
+    "keywords": [
+        "biome",
+        "biomejs",
+        "biome config",
+        "biome settings",
+        "biome configuration",
+        "biome javascript",
+        "biome typescript",
+        "code formatting",
+        "code formatter",
+        "formatting",
+        "clean code",
+        "code cleaner"
+    ],
+    "exports": {
+        "./biome": "./biome.json"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kvadrofilii/biome-config.git"
+    },
+    "packageManager": "pnpm@10.14.0"
+}
