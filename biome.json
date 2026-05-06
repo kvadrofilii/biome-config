@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.4.10/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.4.14/schema.json",
   "files": {
     "ignoreUnknown": false
   },
@@ -19,7 +19,7 @@
   "formatter": {
     "enabled": true,
     "formatWithErrors": false,
-    "indentStyle": "space",
+    "indentStyle": "tab",
     "indentWidth": 2,
     "lineEnding": "lf",
     "lineWidth": 120,
@@ -27,7 +27,17 @@
     "bracketSameLine": false,
     "bracketSpacing": true,
     "expand": "auto",
-    "useEditorconfig": true
+    "useEditorconfig": true,
+    "includes": [
+			"**",
+			"!**/build",
+			"!**/node_modules",
+			"!**/.vscode",
+			"!**/.idea",
+			"!**/.git",
+			"!**/*.yml",
+			"!**/*.yaml"
+		]
   },
   "linter": {
     "enabled": true,
