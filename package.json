@@ -1,6 +1,6 @@
 {
   "name": "@michael-yakovlev/biome-config",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "type": "module",
   "license": "MIT",
   "author": "Michael Yakovlev",
@@ -29,8 +29,8 @@
     "type": "git",
     "url": "git+https://github.com/kvadrofilii/biome-config.git"
   },
-  "packageManager": "pnpm@10.33.0",
+  "packageManager": "pnpm@11.8.0",
   "devDependencies": {
-    "@biomejs/biome": "^2.4.14"
+    "@biomejs/biome": "^2.5.0"
   }
 }
